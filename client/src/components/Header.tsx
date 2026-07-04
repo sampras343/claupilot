@@ -29,7 +29,7 @@ export function Header({ instances, waitingCount, onOpenGroupManager }: HeaderPr
     <header className="sticky top-0 z-30 border-b border-gray-800 bg-gray-900/80 backdrop-blur-md">
       <div className="mx-auto flex items-center justify-between px-4 py-3 max-w-screen-2xl">
         {/* Left: Title */}
-        <h1 className="text-lg font-bold text-gray-100">ClauDeck</h1>
+        <h1 className="text-lg font-bold text-gray-100">ClauPilot</h1>
 
         {/* Center: Stats */}
         <div className="hidden sm:flex items-center gap-2">

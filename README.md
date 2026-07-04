@@ -1,8 +1,8 @@
-# ClauDeck
+# ClauPilot
 
 [![CI](https://github.com/sampras343/claudeck/actions/workflows/ci.yml/badge.svg)](https://github.com/sampras343/claudeck/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/claudeck)](https://www.npmjs.com/package/claudeck)
-[![Node.js](https://img.shields.io/node/v/claudeck)](https://nodejs.org)
+[![npm version](https://img.shields.io/npm/v/claupilot)](https://www.npmjs.com/package/claupilot)
+[![Node.js](https://img.shields.io/node/v/claupilot)](https://nodejs.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Interactive web dashboard for monitoring and managing multiple [Claude Code](https://docs.anthropic.com/en/docs/claude-code) CLI instances from a single screen.
@@ -13,7 +13,7 @@ When running multiple Claude Code terminals simultaneously, it's hard to track w
 
 ## The Solution
 
-ClauDeck gives you a real-time dashboard with scorecards for every active Claude instance. See status at a glance, respond to prompts without switching terminals, and auto-approve safe operations.
+ClauPilot gives you a real-time dashboard with scorecards for every active Claude instance. See status at a glance, respond to prompts without switching terminals, and auto-approve safe operations.
 
 ### Features
 
@@ -27,14 +27,14 @@ ClauDeck gives you a real-time dashboard with scorecards for every active Claude
 ## Quick Start
 
 ```bash
-npx claudeck
+npx claupilot
 ```
 
 Or install globally:
 
 ```bash
-npm install -g claudeck
-claudeck
+npm install -g claupilot
+claupilot
 ```
 
 The dashboard opens at **http://localhost:3200**.
@@ -47,7 +47,7 @@ The dashboard opens at **http://localhost:3200**.
 
 ## How It Works
 
-ClauDeck reads Claude Code's internal state files to build a live view of all running instances:
+ClauPilot reads Claude Code's internal state files to build a live view of all running instances:
 
 | Source | Data |
 |--------|------|

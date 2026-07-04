@@ -66,7 +66,7 @@ rosterWatcher.start();
 
 // Start the server
 server.listen(SERVER_PORT, () => {
-  console.log(`[ClauDeck] Server listening on http://localhost:${SERVER_PORT}`);
-  console.log(`[ClauDeck] WebSocket available at ws://localhost:${SERVER_PORT}/ws`);
-  console.log(`[ClauDeck] API available at http://localhost:${SERVER_PORT}/api`);
+  console.log(`[ClauPilot] Server listening on http://localhost:${SERVER_PORT}`);
+  console.log(`[ClauPilot] WebSocket available at ws://localhost:${SERVER_PORT}/ws`);
+  console.log(`[ClauPilot] API available at http://localhost:${SERVER_PORT}/api`);
 });
